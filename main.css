@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+/* 색상 박스들을 배치할 박스 */
+.box{ 
+    width: 300px;
+    height: 50px;
+}
+
+/* 색상 박스가 선택되었을 때 속성 */
+.selected{
+    outline: 2px solid white;
+}
+
+/* 색상 박스 */
+.colorBox{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 4px 4px 0px 0px;
+    cursor: crosshair;
+ }
